@@ -7,6 +7,15 @@ html, body {
     height: 100%;
     width: 100%;    
 }
+.navbar {
+    background-color: #00755e;
+}
+.navbar-light .navbar-brand {
+    color: #ffe5ff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffe5ff;
+}
 .intro {
     height: 100%;
     width:100%;
