@@ -9,6 +9,10 @@ html, body {
 }
 .navbar {
     background-color: #00755e;
+    border-radius: 25px;
+    max-width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 .navbar-light .navbar-brand {
     color: #ffe5ff;
@@ -68,4 +72,27 @@ html, body {
         font-size: 110%;
         padding: 7px 15px;
     }
+}
+#showcase-container {
+    /*background: url('../img/silangJungle.jpg;');*/
+    background-color: #00755e;
+    color: #fff;
+
+}
+.showcase-left {
+    margin-top: 20px;
+    margin-left: 0; 
+
+}
+.showcase-right {
+
+}
+.showcase-btn {
+    color: #fff;
+    background-color:#00755e; 
+    border: 3px solid #750051;
+}
+.showcase-btn:hover {
+    border: 3px solid #750051;
+    background-color:#752400;
 }
