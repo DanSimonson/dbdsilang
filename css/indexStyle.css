@@ -79,12 +79,20 @@ html, body {
     color: #fff;
 
 }
-.showcase-left {
+#showcase h1{
+    font-size:50px;
+    margin-bottom:20px;
+  }
+.showcase-left img {
+    max-width: 800px;;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.showcase .showcase-left {
     margin-top: 20px;
     margin-left: 0; 
-
-}
-.showcase-right {
 
 }
 .showcase-btn {
