@@ -38,6 +38,27 @@ $(document).ready(function(){
         delay: 2000,
         origin:'bottom'
       });
+      sr.reveal('#testimonial div', {
+        duration: 3000,
+        origin:'bottom'
+      });
+      sr.reveal('.info-left', {
+        duration: 3000,
+        origin:'left',
+        distance:'300px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.info-right', {
+        duration: 3000,
+        origin:'right',
+        distance:'300px',
+        viewFactor: 0.2
+      });
+      sr.reveal('.info-btn', {
+        duration: 3000,
+        delay: 2000,
+        origin:'bottom'
+      });
 
 
 });

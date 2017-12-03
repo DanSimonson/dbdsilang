@@ -7,6 +7,9 @@ html, body {
     height: 100%;
     width: 100%;    
 }
+footer {
+    padding: 20px;
+}
 .navbar {
     background-color: #00755e;
     border-radius: 25px;
@@ -104,3 +107,58 @@ html, body {
     border: 3px solid #750051;
     background-color:#752400;
 }
+#info1-container {
+    background-color: #00755e;
+    color: #fff;
+
+}
+#info1 h1 {
+    font-size:50px;
+    margin-bottom: 20px;
+}
+.info-left img {
+    max-width: 800px;;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.info-btn {
+    color: #fff;
+    background-color:#00755e; 
+    border: 3px solid #750051;
+}
+.info-btn:hover {
+    border: 3px solid #750051;
+    background-color:#752400
+}
+
+#cha {
+    border-radius: 50%;
+    float: left;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+#meet {
+    padding-left: 10px;
+   /* margin-top: 10px;*/
+}
+#testimonial {
+    background: url('../img/jungle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    color: #750051;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+#contact{
+    background:url(../img/contact.jpg);
+    background-position: cover;
+    /*background-repeat: no-repeat;*/
+    padding:40px;
+    color:#fff;
+    border-top:#333 7px solid;
+    border-bottom:#333 7px solid;
+  }
