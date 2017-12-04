@@ -35,7 +35,7 @@ $(document).ready(function(){
       });
       sr.reveal('.showcase-btn', {
         duration: 3000,
-        delay: 2000,
+        delay: 3000,
         origin:'bottom'
       });
       sr.reveal('#testimonial div', {
