@@ -17,7 +17,7 @@ $(document).ready(function(){
           }
         });
       });
-
+      
       window.sr = ScrollReveal();
       sr.reveal('.navbar', {
         duration: 3000,
@@ -59,7 +59,7 @@ $(document).ready(function(){
         delay: 2000,
         origin:'bottom'
       });
-
+      
 
 });
 
