@@ -56,20 +56,20 @@ footer {
 }
 
 .btn {
+    color: #fff;
+    background-color:#00755e; 
+    border: 3px solid #750051;
     border-radius: 9px;
     font-family: 'Oswald', sans-serif;
-    color: green;
     font-size: 1354;
     padding: 10px 20px;
-    border: solid green; 
-    background-color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     margin-bottom: 5px;
 }
 .btn:hover {
-    color: blue;
-    border: solid blue 3px;
+    border: 3px solid #750051;
+    background-color:#752400;
 }
 @media screen and (max-width: 768px) {
     .content h1 {
@@ -108,15 +108,6 @@ footer {
     margin-left: 0; 
 
 }
-.showcase-btn {
-    color: #fff;
-    background-color:#00755e; 
-    border: 3px solid #750051;
-}
-.showcase-btn:hover {
-    border: 3px solid #750051;
-    background-color:#752400;
-}
 #info1-container {
     background-color: #00755e;
     color: #fff;
@@ -149,7 +140,6 @@ footer {
 }
 
 #cha {
-    /*border-radius: 50%;*/
     float: left;
     padding-right: 5px;
     margin-top: 5px;
@@ -162,8 +152,8 @@ footer {
     background: url('../img/jungle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /*height: 300px;*/
-    color: #750051;
+
+    color: #191919;
     font-size: 1.6rem;
     font-weight: bold;
 }
@@ -175,4 +165,5 @@ footer {
     color:#fff;
     border-top:#333 7px solid;
     border-bottom:#333 7px solid;
-  }
+}
+
