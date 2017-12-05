@@ -7,9 +7,6 @@ html, body {
     height: 100%;
     width: 100%;    
 }
-#cha-text {
-    margin: 0;
-}
 footer {
     padding: 20px;
 }
@@ -78,6 +75,12 @@ footer {
     .btn {
         font-size: 110%;
         padding: 7px 15px;
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 1199px) { 
+    #cha-text {
+        color: #fff;
     }
 }
 #showcase-container {
@@ -156,6 +159,10 @@ footer {
     color: #191919;
     font-size: 1.6rem;
     font-weight: bold;
+}
+#cha-text {
+    margin: 0;
+    /*color: #d7fff7;*/
 }
 #contact{
     background:url(../img/contact.jpg);
