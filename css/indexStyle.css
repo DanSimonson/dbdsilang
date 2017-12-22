@@ -231,6 +231,9 @@ h1 {
         font-size: 110%;
         padding: 7px 15px;
     }
+    #foot-btn {
+        margin-left: 20px;
+    }
 }
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 1199px) { 
@@ -238,12 +241,6 @@ h1 {
         color: #fff;
     }
 }
-  /*
-  @media (max-width: 767px) { 
-    h2 {
-        font-size: 1.1em;
-        color: purple;
-    }
-}*/
+ 
 
 
