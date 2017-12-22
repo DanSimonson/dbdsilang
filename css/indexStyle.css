@@ -7,13 +7,25 @@ html, body {
     height: 100%;
     width: 100%;    
 }
-footer {
-    padding: 20px;
+.text-right {
+    margin-top:30px;
+    margin-bottom: 10px;
+    /*margin-left: 100px;*/
+    
+}
+#foot-btn {
+    border-radius: 50%;
+    /*padding: 1px 1px;*/
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-right: 100px;
+
 }
 .navbar {
     background-color: #00755e;
     border-radius: 25px;
-    max-width: 500px;
+    max-width: 575px;
+    /*max-width: 500px;*/
     margin-left: 100px;
     margin-top: 20px;
 }
@@ -68,21 +80,7 @@ footer {
     border: 3px solid #750051;
     background-color:#752400;
 }
-@media screen and (max-width: 768px) {
-    .content h1 {
-        font-size: 1.6rem;
-    }
-    .btn {
-        font-size: 110%;
-        padding: 7px 15px;
-    }
-}
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 1199px) { 
-    #cha-text {
-        color: #fff;
-    }
-}
+
 #showcase-container {
     /*background: url('../img/silangJungle.jpg;');*/
     background-color: #00755e;
@@ -170,7 +168,82 @@ footer {
     /*background-repeat: no-repeat;*/
     padding:40px;
     color:#fff;
-    border-top:#333 7px solid;
+    border-top:#333 1px solid;
     border-bottom:#333 7px solid;
 }
+#message {
+    background:url('../img/cross.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    /*
+    padding:40px;
+    color:#fff;
+    border-top:#333 1px solid;
+    border-bottom:#333 7px solid;*/
+}
+.schedule {
+    background-image:url('../img/schedule.jpg');
+    background-size: cover;
+    min-height:400px;
+    background-repeat:no-repeat;
+    
+    /*
+        fixed = parallax
+        scroll = normal
+    */
+    background-attachment:fixed;
+
+    border-bottom: #333 7px solid;
+}
+.ptext {
+    padding-top: 40px;
+    color: #D5D5D5;
+    /*position: relative;*/
+    text-align: center;
+    font-weight: bold;    
+    letter-spacing: 0.2em;
+    
+    font-weight: 600;
+    font-family: 'Mountains of Christmas';
+    /*text-shadow: 0px 0px 8px rgb(255, 65, 128);*/
+    text-shadow: 0px 0px 8px rgba(255,65,185,1);
+    
+}
+h1 {
+    font-size: 3.5em;
+    padding: 3px 0
+}
+#lead {
+    font-size: 4em;
+    text-decoration: underline;
+}
+@media(max-width:568px){
+    .schedule{
+      background-attachment:scroll;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .content h1 {
+        font-size: 1.6rem;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 1199px) { 
+    #cha-text {
+        color: #fff;
+    }
+}
+  /*
+  @media (max-width: 767px) { 
+    h2 {
+        font-size: 1.1em;
+        color: purple;
+    }
+}*/
+
 

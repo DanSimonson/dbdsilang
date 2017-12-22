@@ -2,6 +2,9 @@ $(document).ready(function(){
     
       //initial check to make sure jquery loaded
       //alert('jquery loaded');
+
+
+
       $(function() {
         // Smooth Scrolling
         $('a[href*="#"]:not([href="#"])').click(function() {
